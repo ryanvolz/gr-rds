@@ -1232,7 +1232,6 @@ connections:
 - [analog_fm_preemph_0_0, '0', rational_resampler_xxx_0_0, '0']
 - [audio_source_0, '0', analog_fm_preemph_0, '0']
 - [audio_source_0, '1', analog_fm_preemph_0_0, '0']
-- [blocks_socket_pdu_0, pdus, rds_encoder_0, rds in]
 - [digital_chunks_to_symbols_xx_0, '0', root_raised_cosine_filter_0, '0']
 - [gr_add_xx_0, '0', low_pass_filter_0_0, '0']
 - [gr_add_xx_1, '0', gr_frequency_modulator_fc_0, '0']
