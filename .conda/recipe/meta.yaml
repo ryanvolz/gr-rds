@@ -35,18 +35,17 @@ requirements:
     - pybind11                            # [build_platform != target_platform]
 
   host:
-    - boost-cpp
     - gmp  # [linux]
     # the following two entries are for generating builds against specific GR versions
     - gnuradio-core  # [not gnuradio_extra_pin]
     - gnuradio-core {{ gnuradio_extra_pin }}.*  # [gnuradio_extra_pin]
+    - libboost-devel
     - pip  # [win]
     - pybind11
     - python
     - numpy
 
   run:
-    - boost-cpp
     - numpy
     - python
 
